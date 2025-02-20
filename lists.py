@@ -41,4 +41,7 @@ print(list)
 list.append(['Sir Irfan Ishaq',[9,0],(1)])
 print(list)
 
-# ALl lists are mutable 
+# ALl lists are mutable
+# Lets mutate the first element of the list  
+list[0]='Sajid Iqbal'
+print(list)
