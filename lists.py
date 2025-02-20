@@ -45,3 +45,10 @@ print(list)
 # Lets mutate the first element of the list  
 list[0]='Sajid Iqbal'
 print(list)
+
+# converting a string into a list using the split function
+
+str = 'Dr. Adil Eng. Sajid Eng. Irfan'
+print (str.split())
+# We can use split function to split the string into a list using our own splitting character 
+print(str.split("Eng."))
