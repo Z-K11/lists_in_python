@@ -20,3 +20,25 @@ print(list)
 print(f"The first lement of the list \nusing negative index {list[-3]} \nusing positive indexing {list[0]}")
 print(f"The second lement of the list \nusing negative index {list[-2]} \nusing positive indexing {list[1]}")
 print(f"The third lement of the list \nusing negative index {list[-1]} \nusing positive indexing {list[2]}")
+# Lists can also contain lists and tuples inside them 
+list =['The body guard ','7.0','1992',("A1",23),[0,2]]
+print (list)
+# We can also use slicing in lists for example 
+print(list[3:len(list)])
+# len(x) will give us length of x ? here lenght of x is for we slice mostly from starting index ? 
+# to 1 more then last index 
+
+# Adding elements to a list 
+# Two main ways using .append() or .extend 
+
+# Using .extend 
+
+list.extend(['Zulqarnain',[1,0]])
+print(list)
+
+# using .append()
+
+list.append(['Sir Irfan Ishaq',[9,0],(1)])
+print(list)
+
+# ALl lists are mutable 
